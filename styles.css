@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  margin: 0;
+  background: url("icons/fon.jpg") 100px 100px;
+}
+
+header {
+  font-size: 24px;
+
+    top:0;
+    width:100%;
+    height:200px;
+}
+
+header h1{
+  margin: 0;
+  font-family: sans-serif;
+
+  top:2px;
+  font-size: 55px;
+  letter-spacing:2px;
+  font-stretch: ultra-expanded;
+  line-height: 63px;
+}
+
+header h2{
+  margin: 0;
+  font-family: "Titillium Web[RUS by Daymarius]E";
+  letter-spacing:3.5px;
+}
+section {
+
+  top:190px;
+  font-size: 30px;
+}
+section h1{
+  position: relative;
+  top:25px;
+  margin: 0;
+}
+ ul {
+   font-size: 37px;
+   margin: 0;
+   position: relative;
+   text-align: start;
+   left: 667px;
+   list-style-position: outside;
+   column-count: 2;
+   width: 586px;
+   height: 300px;
+   top: 43px;
+   line-height: 33px;
+}
+li{
+  margin-bottom: 5px;
+}
+p{
+  font-size: 31px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+footer {
+  font-size: 37px;
+  padding-top: 21px;
+  line-height: 38px;
+}
+@font-face {
+  font-family: "Titillium Web[RUS by Daymarius]E";
+
+  src: url("fonts/12222.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
